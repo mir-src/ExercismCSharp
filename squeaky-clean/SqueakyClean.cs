@@ -6,7 +6,6 @@ public static class Identifier
     {
         identifier = Regex.Replace(identifier, @"[\d-]", string.Empty);
         identifier = Regex.Replace(identifier, @"[\d-]", string.Empty);
-
         var actions = new Dictionary<string, Func<string, string>>
         {
             {@"\s", id => id.Replace(" ", "_")},
