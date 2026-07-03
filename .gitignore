@@ -155,8 +155,7 @@ coverage*.json
 coverage*.xml
 coverage*.info
 
-./bin
-./obj
+[Bb]in/
 [Oo]bj/
 .vs/
 .idea/
